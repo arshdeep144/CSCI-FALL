@@ -1,0 +1,12 @@
+input: interpolant node array, function values
+interpolant = interpolant: -1
+size = length of interpolant
+for i = 0:size-1
+	function = function + interpolant[i]
+	if i!=(size-2)
+		interpolant = interpolant + "+"
+	end
+end
+end
+
+Complexity = n^2-n

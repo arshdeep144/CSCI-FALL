@@ -1,0 +1,4 @@
+The values that I got was over 8000 for the linked list and over 6000 for the array.
+These are this high because they are being sorted using one of the slowest sorts which is bubble sort.
+The linked list is slightly higher because it has to move over the nodes when it is sorting so it will need to go through
+the loop a few extra times.
